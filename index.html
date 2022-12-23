@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Clip</title>
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   div{
+    margin: 10px;
+    padding: 10px;
+
+   }
+   div h1{
+ 
+    background-image: url('./assets/bg.jpg');
+    margin-top: 12%;
+  
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Impact;
+    text-align: center;
+    color:transparent;
+    background-clip: text; 
+    -webkit-background-clip: text;
+    font-style: oblique;
+    font-size: 120px;
+   }
+   @media screen (max-width -576px){
+    
+   }
+  </style>
+</head>
+<body>
+  <h2> background-clip</h2>
+  <div>
+    <h1> MD ANAS</h1>
+   
+  </div>
+</body>
+</html>
